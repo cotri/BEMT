@@ -42,7 +42,7 @@ linearRange = linRange(polar.cl(:,1), polar.cl(:,2:end));
 mean_a0 = clSlope(ReIndex, polar.cl(:,1), polar.cl(:,2:end), linearRange);
 
 for i=1:length(Vinf)
-	% Blade Element Momentum Theory
+    % Blade Element Momentum Theory
     [J, C_T, C_Q, C_P, eta_pr, cl, cd, ca, ct] = bemt(n, Vinf(i), prop, ...
     	air, ReIndex, polar, mean_a0, tipLossModel, rotFlowModel, flag);
 
@@ -59,8 +59,6 @@ end
 
 %% Plotting
 
-figure
-
 if ~flag
     x = perf(:,1);
     label = 'Advance ratio, J';
@@ -69,6 +67,7 @@ elseif flag
     label = 'Blade span, r/R';
 end
 
+figure
 subplot(2,2,1)
 plot(x,perf(:,2), uiuc(:,1),uiuc(:,2),'.'); grid on
 xlabel(label)
