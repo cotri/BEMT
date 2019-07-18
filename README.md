@@ -64,4 +64,4 @@ This project is licensed under the GNU GPLv2 License - see the [LICENSE.md](LICE
 
 \[3] Z. Du and M. S. Selig. «A 3-D Stall-Delay Model for Horizontal Axis Wind Turbine Performance Prediction». In: 36th AIAA Aerospace Sciences Meeting and Exhibit, 1998 ASME Wind Energy Symposium. Reno, NV, USA, Jan. 1998.
 
-\[4] G. Ananda. UIUC Propeller Data Site - Volume 1. Ed. by UIUC Applied Aerodynamics Group. 2018. URL: https://m- selig.ae.illinois.edu/props/volume-1/propDB-volume-1.html.
+\[4] G. Ananda. UIUC Propeller Data Site - Volume 1. Ed. by UIUC Applied Aerodynamics Group. 2018. URL: https://m-selig.ae.illinois.edu/props/volume-1/propDB-volume-1.html.
