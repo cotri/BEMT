@@ -2,7 +2,7 @@
 
 The implementation of the Blade Element Momentum Theory (BEMT) code is intended to analyse the performance of a given propeller geometry at a constant rotational speed for different advance ratios.
 
-This tool has been developed during of my Bachelor Thesis in Aerospace Engineering as a part of the design, validation and optimization of propeller performance with special regard to low Reynolds operating propellers (and thus profiles). This particular tool was implemented alongside CFD simulations to obtain the aerodynamic coefficients needed for BEMT.
+This tool has been developed during my Bachelor Thesis in Aerospace Engineering as a part of the design, validation and optimization of propeller performance with special regard to low Reynolds operating propellers (and thus profiles). This particular tool was implemented alongside CFD simulations to obtain the aerodynamic coefficients needed for BEMT.
 
 The chosen propeller and the one whose geometric characteristics are loaded in the code is the *APC 10x7 Thin Electric*.
 
