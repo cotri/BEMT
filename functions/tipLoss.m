@@ -21,11 +21,6 @@ switch tipLossModel
         f = (prop.B/2.*(prop.Rt -r)./(r.*sin(phi)));
         F = 2/pi.*acos(exp(-f));
         
-    case 'Prandtl2'
-        phi_tip = atan2(phi.*prop.r_R, 1);
-        f = prop.B/2.*(1 -prop.r_R)./(sin(phi_tip));
-        F = 2/pi.*acos(exp(-f));
-        
     case 'DeVries'
         c1 = 0.125;
         c2 = 21;
